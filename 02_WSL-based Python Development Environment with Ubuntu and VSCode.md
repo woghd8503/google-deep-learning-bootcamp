@@ -125,18 +125,15 @@ wsl --unregister Ubuntu-22.04
 
 ### Markdown 예제
 
-````markdown
+````
 ✅ 제목 만들기
 
 - `#`, `##`, `###` 등을 사용해 제목의 크기를 조절할 수 있음.
 
-```markdown
 # Heading 1  
 ## Heading 2  
 ### Heading 3
-```
 
----
 
 ✅ 강조 (굵게 / 기울임)
 
@@ -144,87 +141,68 @@ wsl --unregister Ubuntu-22.04
 - 기울임: `*텍스트*` 또는 `_텍스트_`  
 - 굵게+기울임: `***텍스트***`
 
----
 
 ✅ 리스트
 
 - 순서 없는 리스트: `-`, `*`, `+`  
 - 순서 있는 리스트: 숫자 뒤에 점(`.`)을 사용
 
-```markdown
 - 항목 1
 - 항목 2
 
 1. 첫 번째 항목  
 2. 두 번째 항목
-```
 
----
 
 ✅ 코드 블록
 
 - 인라인 코드: \`코드\`  
 - 여러 줄 코드 블록: 백틱(\`\`\`) 3개 사용
 
-```python
+python
 print("Hello, Markdown!")
-```
 
----
 
 ✅ 수평선
 
 - `---` 또는 `***` 사용
 
-```markdown
 ---
 ***
 ```
 
----
 
 ✅ 링크 삽입
 
 - `[텍스트](URL)` 형식 사용
 
-```markdown
 [Google](https://www.google.com)
-```
 
----
 
 ✅ 이미지 삽입
 
 - `![이미지 설명](이미지 URL 또는 경로)` 형식 사용
 
-```markdown
 ![Example Image](https://via.placeholder.com/150)
-```
 
----
 
 ✅ HTML 태그 사용
 
 - Markdown 셀에서는 HTML도 지원합니다.
 
-```html
+html
 <b>굵은 텍스트</b>
-```
 
----
 
 ✅ 표 만들기
 
 - `|` 와 `-`를 사용
 
-```markdown
 | 항목 | 설명             |
 |------|------------------|
 | 제목 | Markdown 사용법  |
 | 작성자 | 여러분         |
-```
 
----
 
 ✅ 수식 작성 (LaTeX 지원)
 
@@ -233,7 +211,6 @@ print("Hello, Markdown!")
 
 - 블록 수식: `$$수식$$`
 ````
-
 
 ## 마무리
 
